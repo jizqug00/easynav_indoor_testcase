@@ -63,11 +63,11 @@ sensors_node:
     sensors: [laser1]
     perception_default_frame: odom
     laser1:
-      topic: /scan_raw
+      topic: scan_raw
       type: sensor_msgs/msg/LaserScan
       group: points
     camera1:
-      topic: /rgbd_camera/points
+      topic: rgbd_camera/points
       type: sensor_msgs/msg/PointCloud2
       group: points
 
